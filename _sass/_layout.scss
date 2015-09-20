@@ -9,6 +9,12 @@
   margin: 0 auto;
 }
 
+header {
+    .mdl-navigation__link {
+      font-size: 1.2em;
+    }
+}
+
 // Cards styles
 
 .mdl-card__title {
