@@ -3,12 +3,16 @@ layout: page
 title: Galleri
 permalink: /galleri/
 pics:
- - alt: kok julebrygg 2015
-   src: /assets/julebrygg2015/boil.png
+ - src: /assets/julebrygg2015/boil.png
    cap: kok julebrygg 2015
- - alt: humle julebrygg 2015
-   src: /assets/julebrygg2015/hops.png
+ - src: /assets/julebrygg2015/hops.png
    cap: humle julebrygg 2015
+ - src: /assets/julebrygg2015/mash.png
+   cap: mesk julebrygg 2015
+ - src: /assets/julebrygg2015/pitch.png
+   cap: humle i røra v julebrygg 2015
+ - src: /assets/julebrygg2015/pour.png
+   cap: hell over til gjæringskar julebrygg 2015
 ---
 
 
@@ -25,7 +29,7 @@ pics:
 
   {% for pic in page.pics %}
     <div class="item {% if forloop.index == 1 %}active{% endif %}">
-      <img src="{{ pic.src }}" alt="{{ pic.alt }}">
+      <img src="{{ pic.src }}" alt="{{ pic.cap }}">
       <div class="carousel-caption">
         <p>{{ pic.cap }}</p>
       </div>
