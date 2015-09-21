@@ -35,6 +35,11 @@ dl {
   }
 }
 
-dl.dl-horizontal dt {
-  margin-top: 0;
+dl.dl-horizontal {
+  max-width: 33em;
+  margin: 1em auto;
+
+  dt {
+    margin-top: 0;
+  }
 }
