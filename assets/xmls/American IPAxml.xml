@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<?xml-stylesheet href='http://www.brewmate.net/brewmate.xsl' type='text/xsl'?>
+<!--BeerXML Format Recipe - Generated with BrewMate - www.brewmate.net-->
+<RECIPES>
+  <RECIPE>
+    <NAME>American IPA</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <STYLE>
+      <NAME>American IPA</NAME>
+    </STYLE>
+    <BREWER>BrewMate</BREWER>
+    <BATCH_SIZE>25</BATCH_SIZE>
+    <BOIL_SIZE>28.75</BOIL_SIZE>
+    <BOIL_TIME>90</BOIL_TIME>
+    <EFFICIENCY>70</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Chinook</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>11.4</ALPHA>
+        <AMOUNT>0.03</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Simcoe</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12.2</ALPHA>
+        <AMOUNT>0.06</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>15</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Amarillo</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>8.6</ALPHA>
+        <AMOUNT>0.06</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>2</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Amarillo</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>8.6</ALPHA>
+        <AMOUNT>0.025</AMOUNT>
+        <USE>Dry Hop</USE>
+        <TIME>0</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Chinook</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>11.4</ALPHA>
+        <AMOUNT>0.025</AMOUNT>
+        <USE>Dry Hop</USE>
+        <TIME>0</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Simcoe</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12.2</ALPHA>
+        <AMOUNT>0.025</AMOUNT>
+        <USE>Dry Hop</USE>
+        <TIME>0</TIME>
+        <FORM>Pellet</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Pale Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>6.100</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.434782608695485</YIELD>
+        <COLOR>2</COLOR>
+        <POTENTIAL>1.037</POTENTIAL>
+        <PERCENTAGE>91.04</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Munich I</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.300</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>82.608695652173992</YIELD>
+        <COLOR>7.1</COLOR>
+        <POTENTIAL>1.038</POTENTIAL>
+        <PERCENTAGE>4.48</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Caraamber</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.200</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.434782608695485</YIELD>
+        <COLOR>36</COLOR>
+        <POTENTIAL>1.037</POTENTIAL>
+        <PERCENTAGE>2.99</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Caramunich III</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.100</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.434782608695485</YIELD>
+        <COLOR>71</COLOR>
+        <POTENTIAL>1.037</POTENTIAL>
+        <PERCENTAGE>1.49</PERCENTAGE>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS />
+    <YEASTS>
+      <YEAST>
+        <NAME>Safale US-05</NAME>
+        <VERSION>1</VERSION>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS></WATERS>
+    <MASH>
+      <NAME></NAME>
+      <VERSION>1</VERSION>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Saccharification Rest</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Infusion</TYPE>
+          <STEP_TEMP>65</STEP_TEMP>
+          <STEP_TIME>65</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <NOTES></NOTES>
+    <OG>1.058</OG>
+    <PRIMARY_TEMP>20</PRIMARY_TEMP>
+    <!--BrewMate XLST-->
+    <FG>1.015</FG>
+    <CALCCOLOUR>7.0104000000000006</CALCCOLOUR>
+    <CALCIBU>72.0</CALCIBU>
+    <!--BrewMate Specific Settings-->
+    <BIAB>0</BIAB>
+    <IBUCalcMethod>2</IBUCalcMethod>
+    <GrainCalcMethod>2</GrainCalcMethod>
+    <StyleNaziMode>1</StyleNaziMode>
+    <IsNoChill>0</IsNoChill>
+    <GrainUnits>1</GrainUnits>
+    <HopsUnits>0</HopsUnits>
+    <VolumeUnits>1</VolumeUnits>
+    <TemperatureUnits>0</TemperatureUnits>
+    <Colour>1</Colour>
+    <GrainTemp>0</GrainTemp>
+    <StrikeWater>0</StrikeWater>
+    <GrainAbsorbtion>0.9</GrainAbsorbtion>
+    <WatertoGrainRatio></WatertoGrainRatio>
+    <SpargeDeadSpace></SpargeDeadSpace>
+    <SpargeTempDesired>0</SpargeTempDesired>
+    <TopUpWater></TopUpWater>
+    <PercentEvap></PercentEvap>
+    <TrubChillerLosses></TrubChillerLosses>
+    <calendarpressed>0</calendarpressed>
+    <brewdayDate></brewdayDate>
+    <yeastpitchDate></yeastpitchDate>
+    <primaryDate></primaryDate>
+    <secondaryDate></secondaryDate>
+    <keggingDate></keggingDate>
+    <serveDate></serveDate>
+    <brewdayEnabled>1</brewdayEnabled>
+    <yeastpitchEnabled>1</yeastpitchEnabled>
+    <primaryEnabled>1</primaryEnabled>
+    <secondaryEnabled>0</secondaryEnabled>
+    <keggingEnabled>1</keggingEnabled>
+    <serveEnabled>1</serveEnabled>
+  </RECIPE>
+</RECIPES>
