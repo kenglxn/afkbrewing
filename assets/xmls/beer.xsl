@@ -33,7 +33,7 @@
       <tr>
         <td>Hop</td>
         <td>
-          <xsl:value-of select="AMOUNT"/>&#160;<xsl:value-of select="NAME"/> <xsl:value-of select="FORM"/>,
+          <xsl:value-of select="AMOUNT"/>&#160;<xsl:value-of select="NAME"/>&#160;<xsl:value-of select="FORM"/>,
           <xsl:value-of select="USE"/> for <xsl:value-of select="TIME"/>min.
           &#945;=<xsl:value-of select="ALPHA"/>
         </td>
