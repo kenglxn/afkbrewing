@@ -17,6 +17,7 @@ beers:
    type: Winter Ale
    image: assets/beers/14nisser.png
    ABV: 7%
+   recipe: /assets/xmls/Julealexml.xml
    untappd: https://untappd.com/b/afk-brewing-14-nisser-1/895793
  - name: Sweet Devil
    type: English Brown Ale
