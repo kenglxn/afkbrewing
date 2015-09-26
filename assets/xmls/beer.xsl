@@ -33,9 +33,8 @@
       <tr>
         <td>Hop</td>
         <td>
-          <xsl:value-of select="AMOUNT * 1000"/>g <xsl:value-of select="NAME"/>&#160;<xsl:value-of select="FORM"/>,
+          <xsl:value-of select="AMOUNT * 1000"/>g <xsl:value-of select="NAME"/>&#160;<xsl:value-of select="FORM"/> (&#945;=<xsl:value-of select="ALPHA"/>),
           <xsl:value-of select="USE"/> for <xsl:value-of select="TIME"/>min.
-          &#945;=<xsl:value-of select="ALPHA"/>
         </td>
       </tr>
     </xsl:for-each>
@@ -44,7 +43,7 @@
         <td><xsl:value-of select="TYPE"/></td>
         <td>
           <xsl:value-of select="AMOUNT * 1"/>kg <xsl:value-of select="NAME"/>,
-          Yield: <xsl:value-of select="YIELD"/>,
+          Yield: <xsl:value-of select="format-number(YIELD, '#.#')"/>,
           Color: <xsl:value-of select="COLOR"/>,
           Potential: <xsl:value-of select="POTENTIAL"/>,
           Percentage: <xsl:value-of select="PERCENTAGE"/>
