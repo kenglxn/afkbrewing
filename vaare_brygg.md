@@ -3,16 +3,29 @@ layout: page
 title: Våre Brygg
 permalink: /vaare_brygg/
 beers:
- - name: Nygaard English Ale
-   type: English Mild Ale
-   ABV: 6.5%
-   IBU: 37
-   untappd: https://untappd.com/b/afk-brewing-nygaard-english-ale/1231624
+ - name: 15 Nisser
+   type: Winter Ale
+   ABV: TBA
+   recipe: /assets/xmls/15nisser.xml
  - name: Nygaard APA
    type: American Pale Ale
    ABV: 6.5%
    IBU: 56
+   recipe: /assets/xmls/American_Pale_Ale.xml
    untappd: https://untappd.com/b/afk-brewing-nygaard-apa/1231620
+ - name: Nygaard English Ale
+   type: English Mild Ale
+   ABV: 6.5%
+   IBU: 37
+   recipe: /assets/xmls/Champion_Ale_II.xml
+   untappd: https://untappd.com/b/afk-brewing-nygaard-english-ale/1231624
+ - name: WeissenPaaske
+   type: Hefeweizen
+   image: assets/beers/weissenpaaske.png
+   ABV: 5%
+   IBU: 15
+   recipe: /assets/xmls/Weissbierxml.xml
+   untappd: https://untappd.com/b/afk-brewing-weissenpaaske/999360
  - name: 14 Nisser
    type: Winter Ale
    image: assets/beers/14nisser.png
@@ -24,23 +37,16 @@ beers:
    image: assets/beers/sweetdevil.png
    ABV: 5%
    untappd: https://untappd.com/b/afk-brewing-sweet-devil/858636
- - name: WeissenPaaske
-   type: Hefeweizen
-   image: assets/beers/weissenpaaske.png
-   ABV: 5%
-   IBU: 15
-   recipe: /assets/xmls/Weissbierxml.xml
-   untappd: https://untappd.com/b/afk-brewing-weissenpaaske/999360
- - name: MayFlower IPA
-   type: English IPA
-   image: assets/beers/mayflower.png
-   ABV: 5%
-   untappd: https://untappd.com/b/afk-brewing-mayflower-ipa/736689
  - name: "!4Sale"
    type: English Golden Ale
    image: assets/beers/not4sale.png
    ABV: 5%
    untappd: https://untappd.com/b/afk-brewing-4sale/816415
+ - name: MayFlower IPA
+   type: English IPA
+   image: assets/beers/mayflower.png
+   ABV: 5%
+   untappd: https://untappd.com/b/afk-brewing-mayflower-ipa/736689
 ---
 
 {% for beer in page.beers %}
@@ -67,13 +73,14 @@ beers:
     </a>
   </dd>
   {% endif %}
+  {% if beer.untappd != null %}
   <dt>Untappd</dt>
   <dd>
     <a href="{{ beer.untappd }}">
       <i class="fa fa-beer"></i>
     </a>
   </dd>
-  <!-- TODO  renderer for beer.xml in JS -->
+  {% endif %}
 </dl>
 
 {% include page_divider.html %}
