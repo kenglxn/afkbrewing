@@ -17,7 +17,7 @@
       <tr><td>Efficiency</td><td><xsl:value-of select="EFFICIENCY"/></td></tr>
       <tr><td>FG</td><td><xsl:value-of select="FG"/></td></tr>
       <tr><td>OG</td><td><xsl:value-of select="OG"/></td></tr>
-      <tr><td>COLOR</td><td><xsl:value-of select="CALCCOLOUR"/></td></tr>
+      <tr><td>EBC</td><td><xsl:value-of select="format-number(CALCCOLOUR * 1.97,'#.#')"/></td></tr>
       <tr><td>IBU</td><td><xsl:value-of select="CALCIBU"/></td></tr>
     <xsl:for-each select="MASH/MASH_STEPS/MASH_STEP">
       <tr>
@@ -33,7 +33,7 @@
       <tr>
         <td>Hop</td>
         <td>
-          <xsl:value-of select="AMOUNT"/>&#160;<xsl:value-of select="NAME"/>&#160;<xsl:value-of select="FORM"/>,
+          <xsl:value-of select="AMOUNT * 1000"/>g <xsl:value-of select="NAME"/>&#160;<xsl:value-of select="FORM"/>,
           <xsl:value-of select="USE"/> for <xsl:value-of select="TIME"/>min.
           &#945;=<xsl:value-of select="ALPHA"/>
         </td>
@@ -43,7 +43,7 @@
       <tr>
         <td><xsl:value-of select="TYPE"/></td>
         <td>
-          <xsl:value-of select="AMOUNT"/>&#160;<xsl:value-of select="NAME"/>,
+          <xsl:value-of select="AMOUNT * 1"/>kg <xsl:value-of select="NAME"/>,
           Yield: <xsl:value-of select="YIELD"/>,
           Color: <xsl:value-of select="COLOR"/>,
           Potential: <xsl:value-of select="POTENTIAL"/>,
