@@ -22,7 +22,7 @@ Så når mesken er ferdig, løfter vi ut den indre delen, og setter denne på pl
 
 <img src="{{ site.baseurl }}assets/julebrygg2015/boil.png" title="Kok" class="profile">
 
-Når koken er ferdig kjører vi på med humle. Først to runder med East Kend, og en god dash Admiral helt til slutt.
+Når koken er ferdig kjører vi på med humle. Først to runder med East Kent, og en god dash Admiral helt til slutt.
 
 <img src="{{ site.baseurl }}assets/julebrygg2015/hops.png" title="Humle" class="profile">
 <img src="{{ site.baseurl }}assets/julebrygg2015/pitch.png" title="Humleposer i røra" class="profile">
