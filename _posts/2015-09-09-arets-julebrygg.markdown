@@ -30,5 +30,5 @@ Helt til slutt dumper vi det over i gjæringskaret, via kjølerøret. Dette fung
 
 <img src="{{ site.baseurl }}assets/julebrygg2015/pour.png" title="Over til gjæringskaret" class="profile">
 
-Vi endte opp med totalt ca 52 Liter vørt fordelt på to batcher, begge med en FG på 1060, så nå er det bare å vente og krysse fingrene.
+Vi endte opp med totalt ca 52 Liter vørt fordelt på to batcher, begge med en OG på 1060, så nå er det bare å vente og krysse fingrene.
 
