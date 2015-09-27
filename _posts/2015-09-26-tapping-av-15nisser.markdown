@@ -6,7 +6,6 @@ author: Ken Gullaksen
 categories: Brygg
 tags: AFK
 cover:  "assets/julebrygg2015/fg_cover.png"
-excerpt: "Vi startet dagen med å vaske flasker. Vi har 4 stykk 2 liters 'growler' flasker med flipkork fra Kofoedbryggeriet på Hvaler, 9 stykk 0,7 liters flasker fra Kinn Bryggeri og utallige varianter 0,5 liters flasker. Etter å ha opplevd å miste 50 Liter i fjor påske til forurensing er vi blitt ekstra nøye med renhold. I dag vasket vi alle flaskene to ganger i vaskemiddel. Vi byttet også vann underveis for sikkerhetsskyld. For vasking fungerer de åpne gjæringskarene veldig bra."
 
 ---
 

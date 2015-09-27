@@ -6,7 +6,6 @@ author: Ken Gullaksen
 categories: Brygg
 tags:	AFK velkommen
 cover:  "assets/julebrygg2015/hops.png"
-excerpt: "Da var det dags for det første brygget vi setter sammen etter flyttingen av bryggeriet fra Knapstad til Horten. Vi er lovlig sent ute med årets julebrygg. Vi føler begge at 14 Nisser, som vi satt i fjor, ble en suksess og kjører videre med den i år, men med noen småjusteringer. Vi har skaffa oss nytt utstyr, fått litt mer kontroll på prosessen, og vi justerer litt på humlemengden og kryddervalg."
 
 ---
 
