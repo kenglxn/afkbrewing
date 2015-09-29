@@ -5,7 +5,7 @@ date:   2015-09-09 20:00:00
 author: Ken Gullaksen
 categories: Brygg
 tags:	AFK velkommen
-cover:  "assets/julebrygg2015/hops.png"
+cover:  "assets/albums/julebrygg2015/hops.png"
 
 ---
 
@@ -14,22 +14,22 @@ Vi er lovlig sent ute med årets julebrygg. Vi føler begge at 14 Nisser, som vi
 
 Vi starter med mesk. Dette er blitt en kort prosess nå som vi har skaffet oss en [Grainfather](http://www.grainfather.com/). Denne har som de fleste andre løsningene varmeelement med bryter for 500W og 2000W, thermostat og digital temperaturvisning, samt motorisert pumpe. Det vi er svært fornøyd med på [vår grainfather](http://www.grainfather.co.uk/#!online-store/c8k/!/Grainfather/p/47629809/category=12389140) er pumpen og kjølemekanismen.
 
-<img src="{{ site.baseurl }}assets/julebrygg2015/mash.png" title="Mesking" class="profile">
+<img src="{{ site.baseurl }}assets/albums/julebrygg2015/mash.png" title="Mesking" class="profile">
 
 Her holder Grainfather'n riktig temp, mens pumpa står på. Veldig enkelt og greit.
 
 Så når mesken er ferdig, løfter vi ut den indre delen, og setter denne på plass på hvileringen øverst og lar den dryppe fra seg før vi setter tempen til kok. Det går relativt fort, og vi padder ned skummet etterhvert som det blir nødvendig.
 
-<img src="{{ site.baseurl }}assets/julebrygg2015/boil.png" title="Kok" class="profile">
+<img src="{{ site.baseurl }}assets/albums/julebrygg2015/boil.png" title="Kok" class="profile">
 
 Når koken er ferdig kjører vi på med humle. Først to runder med East Kent, og en god dash Admiral helt til slutt.
 
-<img src="{{ site.baseurl }}assets/julebrygg2015/hops.png" title="Humle" class="profile">
-<img src="{{ site.baseurl }}assets/julebrygg2015/pitch.png" title="Humleposer i røra" class="profile">
+<img src="{{ site.baseurl }}assets/albums/julebrygg2015/hops.png" title="Humle" class="profile">
+<img src="{{ site.baseurl }}assets/albums/julebrygg2015/pitch.png" title="Humleposer i røra" class="profile">
 
 Helt til slutt dumper vi det over i gjæringskaret, via kjølerøret. Dette fungerte overraskende bra, og vesken blir godt nok nedkjølt med en gang.
 
-<img src="{{ site.baseurl }}assets/julebrygg2015/pour.png" title="Over til gjæringskaret" class="profile">
+<img src="{{ site.baseurl }}assets/albums/julebrygg2015/pour.png" title="Over til gjæringskaret" class="profile">
 
 Vi endte opp med totalt ca 52 Liter vørt fordelt på to batcher, begge med en OG på 1060, så nå er det bare å vente og krysse fingrene.
 
