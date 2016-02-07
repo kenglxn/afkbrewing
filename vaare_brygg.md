@@ -5,6 +5,7 @@ permalink: /vaare_brygg/
 beers:
  - name: 15 Nisser
    type: Winter Ale
+   image: assets/beers/mayflower.png
    ABV: 6.5%
    IBU: 47.6
    recipe: /assets/xmls/15nisser.xml
