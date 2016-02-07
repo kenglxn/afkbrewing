@@ -5,8 +5,10 @@ permalink: /vaare_brygg/
 beers:
  - name: 15 Nisser
    type: Winter Ale
-   ABV: TBA
+   ABV: 6.5%
+   IBU: 47.6
    recipe: /assets/xmls/15nisser.xml
+   untappd: https://untappd.com/b/afk-brewing-15-nisser/1340424
  - name: Nygaard APA
    type: American Pale Ale
    ABV: 6.5%
@@ -30,6 +32,7 @@ beers:
    type: Winter Ale
    image: assets/beers/14nisser.png
    ABV: 7%
+   IBU: 45.3
    recipe: /assets/xmls/Julealexml.xml
    untappd: https://untappd.com/b/afk-brewing-14-nisser-1/895793
  - name: Sweet Devil
@@ -63,8 +66,10 @@ beers:
   <dd>{{ beer.type }}</dd>
   <dt>ABV</dt>
   <dd>{{ beer.ABV }}</dd>
+  {% if beer.IBU != null %}
   <dt>IBU</dt>
   <dd>{{ beer.IBU }}</dd>
+  {% endif %}
   {% if beer.recipe != null %}
   <dt>Oppskrift</dt>
   <dd>
@@ -131,11 +136,3 @@ beers:
     });
   });
 </script>
-
-
-
-
-
-
-
-
