@@ -3,6 +3,13 @@ layout: page
 title: Våre Brygg
 permalink: /vaare_brygg/
 beers:
+ - name: 16 Nisser
+   type: Christmas Ale
+   image: assets/beers/16nisser.png
+   ABV: 6.9%
+   IBU: 39.6
+   recipe: /assets/xmls/JuleAle2016xml.xml
+   untappd: https://untappd.com/b/afk-brewing-16-nisser/1843027
  - name: 15 Nisser
    type: Winter Ale
    image: assets/beers/15nisser.png
