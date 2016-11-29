@@ -5,7 +5,7 @@ permalink: /vaare_brygg/
 beers:
  - name: 16 Nisser
    type: Christmas Ale
-   image: assets/beers/16Nisser.png
+   image: assets/beers/16nisser.png
    ABV: 6.9%
    IBU: 39.6
    recipe: /assets/xmls/JuleAle2016xml.xml
